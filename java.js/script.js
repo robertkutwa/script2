@@ -1,14 +1,26 @@
-let myData = [
-    42,                       // Number
-    "Hello, World!",          // String
-    true,                     // Boolean
-    null,                     // Null
-    undefined,                // Undefined
-    { name: "John", age: 30 },// Object
-    [1, 2, 3],                // Array (which is also an object)
-    function () { return "Hi"; }, // Function
-    Symbol("unique"),         // Symbol
-    BigInt(12345678901234567890n) // BigInt
+let allDataTypes = [
+    42,                       
+    "Hello, World!",         
+    true,                    
+    null,                    
+    undefined,                
+    { name: "John", age: 30 },
+    [1, 2, 3],                
+    function () { return "Hi"; }, 
+    Symbol("unique"),      
+    BigInt(12345678901)
 ];
 
-console.log(myData);
+console.log(allDataTypes);
+
+let idName = ['Robert', 'Onyango ']
+
+console.log(idName);
+
+idName.push('Kutwa')
+
+console.log(idName);
+
+console.log(idName[2]);
+
+console.log(idName.length);
