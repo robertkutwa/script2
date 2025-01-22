@@ -24,3 +24,15 @@ console.log(idName);
 console.log(idName[2]);
 
 console.log(idName.length);
+
+let cars = ["Mazda", "Wrangler", "Trueno"];
+
+for (let i = 0; i < cars.length; i++) {
+    console.log(cars[i]); 
+}
+
+let fruits = ["Orange", "Banana", "Berry"];
+
+for (let fruit of fruits) {
+    console.log(fruit); 
+}
